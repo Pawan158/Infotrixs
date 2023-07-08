@@ -1,0 +1,91 @@
+* { 
+  padding: 30px;
+  background-color: floralwhite;
+  /* background-color: #333;
+  color: whitesmoke; */
+}
+
+/* Styles for the app container */
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  background-color: orange;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+}
+
+/* Styles for the todo items */
+.todo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.todo span {
+  margin-right: 8px;
+  font-size: 16px;
+}
+
+.todo button {
+  padding: 4px 8px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.todo button:first-child {
+  margin-right: 4px;
+  background-color: #5cb85c;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+.todo button:last-child {
+  background-color: #d9534f;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+form {
+  margin-bottom: 16px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+.input {
+  margin-bottom: 8px;
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button[type="submit"] {
+  padding: 8px 16px;
+  font-size: 14px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
